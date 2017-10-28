@@ -1,1 +1,1 @@
-# Fairness
+The idea is to test "fairness". Start with 50 districts with two candidates running in each election. Suppose Party A wins 55% of the popular vote. We want to see how many seats does party A win. For this, we choose 50 random numbers between 0 and 1 as the proportion of people who voted for party A and then we simulate this a bunch of times and plot the votes won by Part A vs the seats won. 
