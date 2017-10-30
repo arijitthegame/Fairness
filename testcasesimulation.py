@@ -1,4 +1,5 @@
 import pylab
+import numpy as np
 import matplotlib.pyplot as plt
 def make_data():
   s=np.random.uniform(.3,.85,50)
