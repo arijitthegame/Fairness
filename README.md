@@ -1,1 +1,3 @@
 The idea is to test "fairness". Start with 50 districts with two candidates running in each election. Suppose Party A wins 55% of the popular vote. We want to see how many seats does party A win. For this, we choose 50 random numbers between 0 and 1 as the proportion of people who voted for party A and then we simulate this a bunch of times and plot the votes won by Part A vs the seats won. 
+
+In all these cases we can see if we perturb the voting data, the seat shares changes according but we found in Wisconsin, that does happen. In the last few elections, the Democrats have got between 49-50.6% of the votes and still had the same number of seats. In this future work, we will investigate this spread gap. 
